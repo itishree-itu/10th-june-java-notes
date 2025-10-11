@@ -427,7 +427,17 @@ public class A {
 	}
 	
 	
+} Sir told in reference variable 2 values stored i.e null and object address. 
+public class A{
+static A a1; // here reference variable is null
+psvm(){
+sop(a1);
+a1=new A();  // here object address is stored in reference variable a1.
+sop(a1);
 }
+} O/P is null and an object address
+
+                                                                       
 
 Example:
 public class A {
@@ -5563,6 +5573,7 @@ public class B {
 Threads in java: - Assignment
 ##################
 https://www.youtube.com/watch?v=Uw1tocKJNZw&list=PLbLiFkJgsmq6j_fFlZuy0xIs6upvrML26&index=44
+
 
 
 
