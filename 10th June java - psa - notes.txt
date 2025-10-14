@@ -577,7 +577,7 @@ Method Arguments
 ##################
 -> Using method arguments we supply values to method when we are calling it
 -> The method argument is a local variable
--> arguments inside the method values that you supply to the method should match
+-> The number and the type of arguments should match with the values supply with the method calling statement.
 
 
 Example 1:
@@ -5563,6 +5563,7 @@ public class B {
 Threads in java: - Assignment
 ##################
 https://www.youtube.com/watch?v=Uw1tocKJNZw&list=PLbLiFkJgsmq6j_fFlZuy0xIs6upvrML26&index=44
+
 
 
 
