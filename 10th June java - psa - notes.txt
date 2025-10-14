@@ -608,7 +608,8 @@ public class C {
 	}
 }
 
-Note: When method argument type is Object, then we can supply any kind of value to it
+Note: When method argument type is Object, then we can supply any kind of value to it . Object is a
+built in type class in Java.
 
 Example 3:
 --------
@@ -5563,6 +5564,7 @@ public class B {
 Threads in java: - Assignment
 ##################
 https://www.youtube.com/watch?v=Uw1tocKJNZw&list=PLbLiFkJgsmq6j_fFlZuy0xIs6upvrML26&index=44
+
 
 
 
