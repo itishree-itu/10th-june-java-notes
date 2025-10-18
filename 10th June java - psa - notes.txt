@@ -2000,7 +2000,7 @@ public class C {
 ------------------------------------------------------
 d. public: When we make variable/method public then we can access that in sam class/same package/different package
 
-Example 1:
+Example 1: SAME CLASS - YES POSSIBLE
 package p1;
 public class A {
 	public int x=10;
@@ -2017,7 +2017,7 @@ Ouput:
 10
 1
 
-Example 2:
+Example 2: SAME PACKAGE SUB CLASS - YES POSSIBLE
 -----------
 package p1;
 public class A {
@@ -2038,7 +2038,7 @@ public class B extends A{
 Ouput:
 10
 1
-Example 3:
+Example 3: SAME PACKAGE NON SUB CLASS - YES POSSIBLE
 -------------------------------------------
 
 package p1;
@@ -2061,7 +2061,7 @@ Output:
 10
 1
 
-Example 4:
+Example 4: DIFFERENT PACKAGE SUB CLASS - YES POSSIBLE
 --------------
 package p1;
 public class A {
@@ -2084,13 +2084,13 @@ Output:
 10
 1
 
-Example 5:
+Example 5: DIFFERENT PACKAGE NON SUB CLASS - YES POSSIBLE
 ------------
 package p1;
 public class A {
 	public int x=10;
 	public void test() {
-		System.out.println(1);
+		Sysstem.out.println(1);
 	}
 	
 }
@@ -5563,6 +5563,7 @@ public class B {
 Threads in java: - Assignment
 ##################
 https://www.youtube.com/watch?v=Uw1tocKJNZw&list=PLbLiFkJgsmq6j_fFlZuy0xIs6upvrML26&index=44
+
 
 
 
