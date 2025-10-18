@@ -1796,7 +1796,7 @@ public class C  {
 
 ------------------------------------------------------------------------
 b. default: A variable/method with default access specifier can work only inside same class or same package, but cannot be accessed in different package
-Example 1:
+Example 1: SAME CLASS - YES POSSIBLE
 ------------
 
 package p1;
@@ -1812,7 +1812,7 @@ public class A {
 	}
 	
 }
-Example 2:
+Example 2: SAME PACKAGE  SUB CLASS - YES POSSIBLE
 ---------------------------------------------
 package p1;
 public class A {
@@ -1835,7 +1835,7 @@ Output:
 1
 
 -----------------------------------------------------------------------
-Example 3:
+Example 3: SAME PACKAGE NON SUB CLASS - YES POSSIBLE
 ------------
 package p1;
 public class A {
@@ -1855,7 +1855,7 @@ public class B {
 }
 
 -----------------------------------------------------------------
-Example 4:
+Example 4: DIFFERENT PACKAGE SUB CLASS - NOT POSSIBLE
 ------------------------
 package p1;
 public class A {
@@ -1876,7 +1876,7 @@ public class C  extends A{
 }
 
 --------------------------------------------------------
-Example 5:
+Example 5: DIFFERENT PACKAGE NON SUB CLASS - NOT POSSIBLE
 ----------------
 package p1;
 public class A {
@@ -5563,6 +5563,7 @@ public class B {
 Threads in java: - Assignment
 ##################
 https://www.youtube.com/watch?v=Uw1tocKJNZw&list=PLbLiFkJgsmq6j_fFlZuy0xIs6upvrML26&index=44
+
 
 
 
